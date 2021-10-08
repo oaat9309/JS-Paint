@@ -1,0 +1,65 @@
+@import "./reset.css";
+
+body {
+    background-color: beige;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10vh;
+}
+
+.jsCanvas {
+    width: 50vw;
+    height: 50vh;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+
+.jsCanvas,
+.controls__btn button,
+.controls__color-content {
+    box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.controls__range {
+    display: flex;
+    justify-content: center;
+}
+
+.controls__btn {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.controls__btn button {
+    margin: 0px 20px;
+    font-size: 15pt;
+    font-weight: 600;
+    padding: 7px 15px;
+    cursor: pointer;
+    border: none;
+    border-radius: 20px;
+    width: 80px;
+}
+
+.controls__btn button:active {
+    transform: scale(0.98); 
+}
+
+.controls__color {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.controls__color-content {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 0px 5px;
+    cursor: pointer;
+}
